@@ -5,21 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <title>Accomodation Types</title>
+    
     <!-- Bootstrap core CSS -->
 
     <link href="~/Areas/Dashboard/Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Custom styles for this template -->
-   
+
     <link href="~/Areas/Dashboard/Content/css/simple-sidebar.css" rel="stylesheet" />
+    <script src="~/Areas/Dashboard/Content/vendor/jquery/jquery.min.js"></script>
+   
 </head>
+
 <body>
     <div class="d-flex" id="wrapper">
         <!-- Sidebar -->
         <div class="bg-light border-right" id="sidebar-wrapper">
             <div class="sidebar-heading"><i class="fas fa-hotel mr-1"></i>HMS</div>
             <div class="list-group list-group-flush">
-                <a href="@Url.Action("AccomodationType","Accomodations")" class="list-group-item list-group-item-action bg-light">
+                <a href="@Url.Action("Index","AccomodationTypes")" class="list-group-item list-group-item-action bg-light">
                     <i class="fas fa-building mr-1"></i>   Accomodation Types
                 </a>
                 <a href="@Url.Action("Index","Roles")" class="list-group-item list-group-item-action bg-light">
@@ -67,8 +71,8 @@
     }
 
 
-    <script src="~/Areas/Dashboard/Content/vendor/jquery/jquery.min.js"></script>
-
+  
+    
     <script src="~/Areas/Dashboard/Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/b62de6f797.js" crossorigin="anonymous"></script>
 
